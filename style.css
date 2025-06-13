@@ -1,0 +1,30 @@
+/* خلفية الموقع */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("background.jpg") center/cover no-repeat fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/* تصميم الزر */
+.my-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #ff0066, #6600ff);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.my-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
